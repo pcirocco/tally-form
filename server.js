@@ -19,7 +19,9 @@ const fieldMap = {
   "Last name": "lastname",
   "Company": "company",
   "Phone": "phone",
-  "Message": "message"
+  "Message": "message",
+  "utm_campaign": "utm_campaign",
+  "UTM Campaign": "utm_campaign"
 };
 
 app.get("/", (_req, res) => {
